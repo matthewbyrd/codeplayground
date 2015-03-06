@@ -1,0 +1,151 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans',Arial;
+}
+
+/* TOP BAR AREA */
+
+#topBar {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #E0E0E0;
+	text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#codePlayground {
+	color: #303233;
+	padding: 8px;
+	padding-left: 15px;
+	font-weight: bold;
+	font-size: 0.9em;
+	float: left;
+}
+
+#selector {
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 2px;
+	background-color: #E0E0E0;
+	display: inline-block;
+}
+
+.topButton {
+	cursor: pointer;
+	color: #303233;
+	margin-top: 2px;
+	width: 20%;
+	height: 25px;
+	border: solid 2px #A3A4A4;
+	border-right: 0;
+	float: left;
+	padding-top: 2px;
+}
+
+#htmlButton {
+	border-radius: 10px 0 0 10px;
+	background-color: #A3A4A4;
+}
+
+#cssButton {
+}
+
+#jsButton {
+
+}
+
+#resultButton {
+	border-right: solid 3px #A3A4A4;
+	border-radius: 0 10px 10px 0;
+	background-color: #A3A4A4;
+}
+
+#run {
+	cursor: pointer;
+	width: 50px;
+	height: 28px;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 4px;
+	margin-right: 50px;
+	border: solid 2px #A3A4A4;
+	background-color: #C8C8C8;
+	float: right;
+	padding-top: 2px;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/* CODE AREA */
+
+
+.area {
+	height: 200px;
+	width: 48%;
+	float: left;
+	position: relative;
+	padding-left: 15px;
+}
+
+.area textarea {
+	font-family: monospace;
+	color: black;
+	height: 95%;
+	width: 100%;
+	border: none;
+	border-right: solid 2px #A3A4A4;
+	font-size: 1.2em;
+	padding-top: 35px;
+	resize: none;
+	float: left;
+}
+
+.codelabel {
+	height: 20px;
+	width: 40px;
+	position: absolute;
+	text-align: center;
+	right: 5px;
+	top: 10px;
+	background-color: #E0E0E0;
+	border: solid 2px #A3A4A4;
+	border-radius: 10px;
+	font-size: 0.7em;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#cssArea, #jsArea {
+	display: none;
+}
+
+#resultFrame {
+	padding: 0;
+	padding-top: 35px;
+	position: relative;
+	left: 20px;
+	height: 97%;
+	width: 100%;
+	border: none;
+}
+
+#jsCode {
+	color: red;
+}

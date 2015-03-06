@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <title>Code Playground</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="codeplayground.css">
+
+</head>
+
+<body>
+
+	<div id="topBar">
+		<div id="codePlayground">
+		CodePlayground
+		</div>
+
+		<div id="selector">
+            <div class="topButton" id="htmlButton">HTML         </div>
+            <div class="topButton" id="cssButton">CSS           </div>
+            <div class="topButton" id="jsButton">JS             </div>
+            <div class="topButton" id="resultButton">Result     </div>
+		</div>
+
+        <div id="run">
+        Run
+        </div>
+
+	</div>
+
+    <div class="clear"></div>
+
+    <div id="codeArea">
+
+        <div class="area" id="htmlArea">
+            <div class="codelabel" id="htmlLabel">HTML</div>
+            <textarea id="htmlCode"></textarea>
+        </div>
+
+        <div class="area" id="cssArea">
+            <div class="codelabel" id="cssLabel">CSS</div>
+            <textarea id="cssCode"></textarea>
+        </div>
+
+        <div class="area" id="jsArea">
+            <div class="codelabel" id="jsLabel">JS</div>
+            <textarea id="jsCode" name="js">As this is just a proof of concept, JavaScript is disabled due to the security threat of allowing users to input their own scripts to the site. Sorry!</textarea>
+        </div>
+
+        <div class="area" id="resultArea">
+            <div class="codelabel" id="resultLabel">Result</div>
+            <iframe id="resultFrame"></iframe>
+        </div>
+
+
+    </div>
+
+
+<script type="text/javascript" src="codeplayground.js"></script>
+
+</body>
+</html>
+
+
